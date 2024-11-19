@@ -9,6 +9,8 @@
 
 Dự án cung cấp một giao diện người dùng đơn giản bằng Gradio để người dùng có thể dễ dàng thử nghiệm và đánh giá kết quả.
 
+![image](https://github.com/user-attachments/assets/cec8e21b-5f6f-42ec-af74-ec89ceccda9b) 
+
 ## Yêu cầu
 
 Trước khi bắt đầu, bạn cần tải hai mô hình đã huấn luyện và lưu vào thư mục `model` trong dự án:
@@ -16,13 +18,13 @@ Trước khi bắt đầu, bạn cần tải hai mô hình đã huấn luyện v
 1. **YOLOv8 model** (sử dụng để phát hiện vị trí của logo trong ảnh):
     Chạy lệnh sau để tải mô hình YOLOv8:
     ```bash
-    !wget https://huggingface.co/11pPyLwrFE0VO8A4AUNU_1TBrGQgYodwf -P model/
+    !wget https://huggingface.co/11pPyLwrFE0VO8A4AUNU_1TBrGQgYodwf 
     ```
 
 2. **ResNet50 model** (sử dụng để phân loại logo là thật hay giả):
     Chạy lệnh sau để tải mô hình ResNet50:
     ```bash
-    !wget https://huggingface.co/1ZBBhLoT0hNeS53MP784zXMHPs5FeoDl7 -P model/
+    !wget https://huggingface.co/1ZBBhLoT0hNeS53MP784zXMHPs5FeoDl7 
     ```
 
 ## Cài đặt và chạy ứng dụng
@@ -31,3 +33,6 @@ Sau khi tải và lưu các mô hình, bạn có thể chạy ứng dụng bằn
 
 ```bash
 python app.py
+
+Video Demo:
+https://imgur.com/a/KxzlT1X 
