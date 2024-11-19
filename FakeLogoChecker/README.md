@@ -33,6 +33,7 @@ Sau khi tải và lưu các mô hình, bạn có thể chạy ứng dụng bằn
 
 ```bash
 python app.py
+```
 
 Video Demo:
 https://imgur.com/a/KxzlT1X 
